@@ -35,8 +35,10 @@ void draw() {
   circle1Y=random(displayHeight*1/20, height*19/20);
   circle2X=random(displayWidth*1/20, width*19/20);
   circle2Y=random(displayHeight*1/20, height*19/20);
+  fill(Party);
   ellipse(circle1X, circle1Y, circleDiameter,circleDiameter);
   ellipse(circle2X, circle2Y, circleDiameter,circleDiameter);
+  fill(reset);
   } else {
     buttonColour = orange;
     Party = yellow;
